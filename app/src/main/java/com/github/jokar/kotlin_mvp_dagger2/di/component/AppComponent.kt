@@ -10,6 +10,7 @@ import dagger.android.support.AndroidSupportInjectionModule
  * Created by JokAr on 2017/6/16.
  */
 @Component(modules = arrayOf(
+        /* Use AndroidInjectionModule.class if you're not using support library */
         AndroidSupportInjectionModule::class,
         AppModule::class,
         MainActivityModule::class
